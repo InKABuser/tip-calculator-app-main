@@ -45,4 +45,6 @@ function calculateTip() {
 
 BTN_RESET.addEventListener('click', () => {
     document.forms[0].reset();
+    AMOUNT_PAY.innerHTML = "$0.00"
+    AMOUNT_TOTAL.innerHTML = "$0.00"
 })
